@@ -1,0 +1,208 @@
+
+.header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+.home-background {
+  background-image: 
+    url('/src/cartographer.png'), 
+    linear-gradient(to right, #4aaf60b7, #ffcb5ab0); 
+  background-repeat: repeat; 
+  background-size: 500px, cover;
+  background-position: center, center;
+  min-height: calc(100vh - 70px); 
+  color: #ffffff;
+  z-index: 0;
+}
+
+  
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #ffefcd;
+  }
+
+.home-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.features {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 2;
+}
+
+.feature-card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.features-releases-wrapper {
+  display: flex;
+  gap: 2rem; 
+  padding: 100px;
+  margin-bottom: 2rem;
+  align-items: flex-start; 
+}
+.cta-section {
+  margin-top: 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  width: 93.5%;
+  background-color: transparent; 
+}
+
+.parallax-one {
+  background-image: url('/src/OpenWorld.jpeg'); 
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding-left: 100px;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+.parallax-text-one {
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    max-width: 800px;
+}
+
+.parallax-text-2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    max-width: 800px;
+    font-size: 30px;
+}
+
+
+.parallax-two {
+  background-image: url('/src/OpenWorld.jpeg'); 
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding-left: 100px;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+
+.parallax-text {
+  color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: justify;
+  max-width: 1100px;
+  font-size: 25px;
+}
+
+.parallax-text h2{
+  font-size: 55px;
+  padding-top: 10px;
+  padding-bottom: 75px;
+}
+
+.game-releases-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  justify-content: space-between; 
+}
+
+.game-releases {
+  display: flex;
+  flex-direction: row;      
+  flex-wrap: wrap;          
+  gap: 2rem;
+  justify-content: center;  
+  padding-top: 2rem;
+}
+
+.release-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.release-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  width: 250px;          
+}
+
+.release-image {
+  width: 100%;
+  max-width: 250px;     
+  height: 350px;        
+  object-fit: cover;    
+  margin: 0 auto;       
+  border-radius: 0.75rem; 
+  display: block;
+}
+
+
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}

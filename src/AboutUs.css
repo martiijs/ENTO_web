@@ -1,0 +1,77 @@
+.aboutus-background {
+  background-image: 
+  url('/src/cartographer.png'), 
+  linear-gradient(to right, #461079b7, #b600009c); 
+  background-repeat: repeat;
+  background-size: 500px, cover;
+  background-position: center, center;
+  color: white;
+}
+
+.parallax-section {
+  background-image: url('/src/ImatgeFons.webp');
+  min-height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.parallax-text-AU {
+  background: rgba(255, 255, 255, 0.836);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  color:black;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
+}
+
+.parallax-text-AU p{
+font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.parallax-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.parallax-text p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.aboutus-content {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+  font-size: 150%;
+}
+
+.aboutus-content p {
+  font-size: 80%;
+}
+
+
+.aboutus-content ul {
+  font-size: 80%;
+}
+
+.aboutus-content h2 {
+  color: #000000;
+  margin-top: 2rem;
+}
+
+.aboutus-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.aboutus-content li {
+  margin: 0.5rem 0;
+}
